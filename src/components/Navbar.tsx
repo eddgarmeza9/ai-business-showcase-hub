@@ -26,7 +26,7 @@ const Navbar = ({
                 <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-6.671-5.575A8 8 0 1 0 16.425 5.328a8.001 8.001 0 0 0-11.096 11.097zm10.392-9.7a5.996 5.996 0 0 1 0 8.486 5.996 5.996 0 0 1-8.486 0 5.996 5.996 0 0 1 0-8.486 5.996 5.996 0 0 1 8.486 0z" />
               </svg>
             </div>
-            <span className="font-semibold text-xl">AI Business Hub</span>
+            <span className="font-semibold text-xl">Verdtek AI Hub</span>
           </Link>
 
           <nav className="flex gap-4">
@@ -42,13 +42,13 @@ const Navbar = ({
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
             <Input
               type="search"
-              placeholder="Search use cases..."
+              placeholder="Search AI solutions..."
               className="w-64 pl-8"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
-          <Button>Sign In</Button>
+          <Button>Get Started</Button>
         </div>
       </div>
     </header>

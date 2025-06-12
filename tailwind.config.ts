@@ -63,13 +63,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				brand: {
-					peach: '#FFF0E5',
-					lavender: '#E5DEFF',
-					lightblue: '#D3E4FD',
-					mint: '#E2F6E9',
-					blue: '#0EA5E9',
-					purple: '#8B5CF6',
+				verdtek: {
+					blue: '#0066CC',
+					lightblue: '#E6F3FF',
+					navy: '#003366',
+					gray: '#F8F9FA',
+					darkgray: '#6C757D'
 				}
 			},
 			borderRadius: {
