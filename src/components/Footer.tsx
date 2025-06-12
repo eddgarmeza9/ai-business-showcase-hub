@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">AI Business Hub</h3>
+            <h3 className="font-bold text-lg mb-4">Verdtek AI Hub</h3>
             <p className="text-gray-600 text-sm">
               Showcasing practical AI solutions for everyday business challenges.
             </p>
@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h4 className="font-medium mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li><a href="mailto:info@aibusinesshub.com" className="text-sm text-gray-600 hover:text-primary">info@aibusinesshub.com</a></li>
+              <li><a href="mailto:contact@verdtek.com" className="text-sm text-gray-600 hover:text-primary">contact@verdtek.com</a></li>
               <li><a href="#" className="text-sm text-gray-600 hover:text-primary">Support</a></li>
               <li><a href="#" className="text-sm text-gray-600 hover:text-primary">Privacy Policy</a></li>
               <li><a href="#" className="text-sm text-gray-600 hover:text-primary">Terms of Service</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-6 border-t border-gray-200">
           <p className="text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} AI Business Hub. All rights reserved.
+            © 2025 Verdtek. All rights reserved.
           </p>
         </div>
       </div>

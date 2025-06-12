@@ -46,17 +46,12 @@ const Hero = () => {
               {/* Main card */}
               <div className="relative bg-white/95 backdrop-blur-sm p-8 rounded-3xl shadow-2xl border border-white/20 max-w-md">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 verdtek-gradient rounded-2xl flex items-center justify-center shadow-lg">
-                    <svg 
-                      viewBox="0 0 24 24" 
-                      fill="white" 
-                      className="h-6 w-6" 
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                      <path d="m2 17 10 5 10-5"/>
-                      <path d="m2 12 10 5 10-5"/>
-                    </svg>
+                  <div className="w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/cd816c0b-a221-48f8-9634-d404df434f13.png" 
+                      alt="Verdtek Logo" 
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                   <div>
                     <div className="font-bold text-xl bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
