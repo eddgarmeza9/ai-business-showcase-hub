@@ -48,7 +48,7 @@ const Hero = () => {
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                     <img 
-                      src="/lovable-uploads/cd816c0b-a221-48f8-9634-d404df434f13.png" 
+                      src="/lovable-uploads/3e826c8c-227b-4fc0-b85c-466b2d73f1a5.png" 
                       alt="Verdtek Logo" 
                       className="w-full h-full object-contain"
                     />
